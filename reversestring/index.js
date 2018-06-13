@@ -1,5 +1,5 @@
 //reverse('hello') === 'olleh'
-
+//abc = cba --> true
 function reverse(str){
     const arr = str.split('');
     arr.reverse();
@@ -12,4 +12,10 @@ function reverse(str){
         reversed = character + revresed;
     }
     return reversed;
+}
+
+function reverse(str){
+    return str.split('').reduce((reversed, character)=>{
+        return character + reversed;
+    }, '');
 }
