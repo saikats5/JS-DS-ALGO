@@ -1,5 +1,5 @@
-Multiple of 3 print 'FIZZ'
-Multiple of 5 print 'BUZZ'
+//Multiple of 3 print 'FIZZ'
+//Multiple of 5 print 'BUZZ'
 
 function fizzBuzz(n){
     for(let i; i<=n; i++){
